@@ -1,10 +1,10 @@
-# WiseUp — Frontend (Vite + React + TypeScript)
+# WiseUp — Matching Platform (Frontend & Backend)
 
 > **WiseUp** connects startups with experienced retirees to provide affordable, flexible domain-specific expertise — while giving retirees purpose, recognition and extra income.
 
 ---
 
-## 📖 About this Project
+## About this Project
 
 WiseUp was conceived, designed, and implemented as part of the  
 [Software Engineering for Business Applications (SEBA) Master’s course](https://wwwmatthes.in.tum.de/pages/1mqqqoqe7gapz/Software-Engineering-for-Business-Applications-SEBA-Master) at TUM.  
@@ -33,7 +33,7 @@ This project was created by a team of four Master’s students:
 
 ## TL;DR
 
-- **What**: Frontend of the WiseUp matchmaking platform.  
+- **What**: The full WiseUp matchmaking platform (Frontend + Backend).  
 - **Why**: Startups lack budget for senior expertise; retirees want meaningful, flexible work. WiseUp matches both sides efficiently.  
 - **How**: A smooth, passwordless UX with guided sign-up, search, automatic matches, and in-app chat.  
 
@@ -98,10 +98,12 @@ Use these anchors to place your A3 screenshots in context.
 
 **Backend (consumed by this app)**  
 - [Node.js](https://nodejs.org/) with TypeScript HTTP API  
-- [OpenAPI](https://www.openapis.org/) specification as API contract  
+- [OpenAPI](https://www.openapis.org/) specification as API contract
+- [MongoDB](https://www.mongodb.com/) for persistence  
 - [Docker Compose](https://docs.docker.com/compose/) for containerized services  
-- Passwordless, email-based sign-in (“magic link”) workflow  
-- Matching, listings, chat, subscriptions (plans & exposures)  
+- Authentication: passwordless email-based sign-in (“magic link”)  
+- Features: profile onboarding, job listings, automated matching, messaging, subscription & exposure logic  
+- External services: [Brevo](https://www.brevo.com/) for transactional emails, [Stripe](https://stripe.com/) for payments  
 
 ---
 
