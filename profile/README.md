@@ -39,7 +39,7 @@ This project was created by a team of four Master’s students:
 - [Jakob](https://github.com/jmoehler)  
 - [Sebastian](https://github.com/sebastianmoelder)  
 - [Michael](https://github.com/mschmidm)  
-- [Renée](https://github.com/reneemschmitt1.  
+- [Renée](https://github.com/reneemschmitt1) 
 
 
 ## TL;DR
