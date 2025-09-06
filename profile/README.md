@@ -1,8 +1,21 @@
+
+
+Table of Contents
+=================
+- [Introduction](#wiseup--matching-platform-frontend--backend)
+- [1. The Problem We Solve](#1-problem-we-solve)
+- [2. Customer Journey (Product Walkthrough)](#2-customer-journey-product-walkthrough)
+- [3. Tech Stack](#3-tech-stack)
+- [4. Getting Started](#4-getting-started)
+- [5. License](#5-license)
+
+---
+
 # WiseUp — Matching Platform (Frontend & Backend)
 
 > **WiseUp** connects startups with experienced retirees to provide affordable, flexible domain-specific expertise — while giving retirees purpose, recognition and extra income.
 
----
+
 
 ## About this Project
 
@@ -17,7 +30,7 @@ As part of this course, we:
 
 wiseup-matching contains the **frontend and Backend implementation** of that project.
 
----
+
 
 ## Contributors
 
@@ -26,9 +39,7 @@ This project was created by a team of four Master’s students:
 - [Jakob](https://github.com/jmoehler)  
 - [Sebastian](https://github.com/sebastianmoelder)  
 - [Michael](https://github.com/mschmidm)  
-- [Renée](https://github.com/reneemschmitt1)  
-
----
+- [Renée](https://github.com/reneemschmitt1.  
 
 
 ## TL;DR
@@ -37,9 +48,10 @@ This project was created by a team of four Master’s students:
 - **Why**: Startups lack budget for senior expertise; retirees want meaningful, flexible work. WiseUp matches both sides efficiently.  
 - **How**: A smooth, passwordless UX with guided sign-up, search, automatic matches, and in-app chat.  
 
+
 ---
 
-## 1) Problem We Solve
+## 1. The Problem We Solve
 
 Early-stage startups need targeted expertise but cannot afford full-time hires or big-firm consulting. Meanwhile, many healthy, motivated retirees want to keep contributing on their own terms.  
 
@@ -47,48 +59,51 @@ WiseUp bridges that gap with a curated, two-sided marketplace and matching flow 
 
 ---
 
-## 2) Customer Journey (Product Walkthrough)
+## 2. Customer Journey (Product Walkthrough)
 
 Use these anchors to place your A3 screenshots in context.
 
 1. **Landing Page**  
-   Insert **[A3 — Figure 2: WebApp: Landing Page]** here.  
+   ![Landing Page](./images/02_landing_page.png)
+
 
 2. **Retiree Sign-Up (Magic Link)**  
-   Insert **[A3 — Figure 4: WebApp: Sign Up Page]** and **[A3 — Figure 5: SignUp for Retirees]** here.  
+   ![Sign Up](./images/04_sign_up.png)  
 
 3. **Onboarding Questionnaire**  
-   Insert **[A3 — Figures 7–11: Questionnaire as Part of Sign Up]** here.  
+   ![Onboarding Questionnaire](./images/07_retiree_signup.png)   
 
 4. **Retiree Home**  
-   Insert **[A3 — Figure 13: WebApp: Retiree Homepage]** and **[A3 — Figure 14: Homepage with Tutorial]** here.  
+   ![Retiree Home](./images/13_retiree_homepage.png)
+   ![Retiree Home with Tutorial](./images/14_tutorial.png)
 
 5. **Startup Profile & Job Listings**  
-   Insert **[A3 — Figure 16: WebApp: Startup Company Profile]** here.  
+   ![Startup Profile](./images/16_startup_profile.png)
 
 6. **Create New Job Posting**  
-   Insert **[A3 — Figures 18 & 20: WebApp: Create a New Job Posting]** here.  
+   ![Create New Job Posting](./images/18_new_job_posting.png)
 
 7. **Browse Retirees**  
-   Insert **[A3 — Figure 22: WebApp: Browse for Retirees]** here.  
+   ![Browse Retirees](./images/22_browse_retirees.png)
 
 8. **Automatic Matches**  
-   Insert **[A3 — Figures 24–26: WebApp: Automatically Created Matches]** here.  
+   ![Matches Page](./images/24_matches.png)
+   ![Match Details](./images/25_matches2.png)
 
 9. **Subscription Upgrade Prompt**  
-   Insert **[A3 — Figure 28: No Connections Left]** and **[A3 — Figure 29: Subscription Model Selection]** here.  
+   ![Paywall](./images/29_paywall.png)
 
 10. **Chat & Hiring**  
-    Insert **[A3 — Figure 31: WebApp: Chat with Retiree]** here.  
+   ![Chat](./images/31_chat.png)  
 
 11. **Profile Status Change**  
-    Insert **[A3 — Figure 33: Retiree Profile incl. Current Status]** and **[A3 — Figure 35: Status Changed]** here.  
+   ![Profile Status Change](./images/33_retiree_profile.png)
 
 > **Note on Exposures**: “Exposures” position listings more prominently based on the startup’s Stripe plan (Gold at top, then Silver). Insert **[A3 — Figures 28–29]** where you describe plans.
 
 ---
 
-## 3) Tech Stack
+## 3. Tech Stack
 
 **Frontend**
 - [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/) (with [Vite](https://vitejs.dev/) as build tooling)  
@@ -107,7 +122,7 @@ Use these anchors to place your A3 screenshots in context.
 
 ---
 
-## 4) Getting Started
+## 4. Getting Started
 
 Check the individual [Frontend README](https://github.com/wiseup-matching/frontend-public) and [Backend README](https://github.com/wiseup-matching/backend-public) for setup instructions.  
 
@@ -120,6 +135,6 @@ In order to run the entire application you’ll need:
 
 ---
 
-## 5 License
+## 5. License
 
-This project is licensed under this [license](https://github.com/wiseup-matching/frontend-public/blob/main/LICENSE).
+This project is licensed under the MIT License.
